@@ -45,7 +45,7 @@ public:
                 cout<<x<<" ";
             }
             cout<<endl;
-        }
+        }                                
         vector<node*> result;
         curr= head;
         part_size= number_of_nodes/k;
