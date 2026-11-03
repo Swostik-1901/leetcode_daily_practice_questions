@@ -10,7 +10,8 @@ public:
     node* right;
     node(int val){
         data= val;
-        left= right= NULL;
+        left= NULL;
+        right= NULL;
     }
 };
 node* insert(node* root, int val){
